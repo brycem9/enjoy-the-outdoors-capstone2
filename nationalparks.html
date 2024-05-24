@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Parks</title>
+    <script src="./scripts/parkTypeData.js"></script>
+    <script src="./scripts/nationalParkData.js"></script>
+    <script src="./scripts/locationData.js"></script>
+    <script src="./scripts/nationalParkMain.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav>
+        <ul class="nav--links">
+          <a href="./index.html"><li class="nav--link">BACK</li></a>
+          <a href="./mountains.html"><li class="nav--link">MOUNTAINS</li></a>
+        </ul>
+      </nav>
+      <figure class="splash--container3">
+      </figure>
+    <select name="cats" id="cats">
+        <option value="">Select an option</option>
+    </select>
+    <select name="parksElement" id="parksElement">
+        <option selected disabled value="">Select by state</option>
+    </select>
+    <div class="park__card--container" id="details"></div>
+</body>
+</html>
